@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presiona una letra en tu teclado</title>
+
+</head>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #key {
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .instrucciones {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .card a {
+        text-decoration: none;
+        color: black;
+
+    }
+</style>
+
+<body>
+
+    <div class="instrucciones">
+        <h3>Presiona una letra en tu teclado:</h3>
+        <p><strong>A</strong> = Rosado <strong>S</strong> = Naranjo <strong>D</strong> = Celeste</p>
+
+        <p><strong>Q</strong> = Morado <strong>W</strong> = Gris <strong>E</strong> = Cafe</p>
+    </div>
+
+    <div id="key">Presiona una tecla</div>
+
+    <div class="card">
+        <a href="./index.html">
+            <h3>Inicio</h3>
+        </a>
+    </div>
+
+    <script src="assets/javascript/keydown.js"></script>
+
+
+</body>
+
+</html>
